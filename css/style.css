@@ -1,0 +1,382 @@
+body{
+  background-color: #f8f8f8;
+}
+
+body, h1, h2, h3, h4, h5, h6, p{
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    /* font-family: 'Caveat Brush', cursive; */
+    font-family: 'Fjalla One', sans-serif;
+
+    font
+}
+
+p, li{
+      font-family: 'Slabo 27px', serif;
+}
+
+a{
+  color: inherit;
+}
+.text h1{
+  text-align: left;
+  font-size: 5.5em;
+  color: white;
+  transition: 0.5s;
+}
+
+.opening {
+  background-color: #212121;
+  transition: 0.5s;
+}
+.opening-nav {
+  background-color: #212121;
+  transition: 0.5s;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.text {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.text p{
+  font-size: 1.5em;
+color: transparent;
+transition: 0.5s;
+}
+
+
+.our-h1:hover ~ .our-p{
+  color:white;
+}
+
+.self-h1:hover ~ .self-p{
+  color:white;
+}
+
+.ind-h1:hover ~ .ind-p{
+  color:white;
+}
+
+.own-h1:hover ~ .own-p{
+  color:white;
+}
+
+.growth-h1:hover ~ .growth-p{
+  color:white;
+}
+
+.prog-h1:hover ~ .prog-p{
+  color:white;
+}
+
+.sup-h1:hover ~ .sup-p{
+  color:white;
+}
+
+
+.sup-h1:hover + .prog-h1{
+  color:white;
+}
+
+.nav-button i{
+color: white;
+border: 3px solid;
+padding: 5px;
+}
+
+.nav-button {
+  text-align: center;
+background-color: #212121;
+padding-top: 5px;
+padding-bottom: 5px;
+position: fixed;
+width: 100%;
+z-index: 100;
+}
+
+.text i{
+  text-align: right;
+width: 100%;
+padding-right: 100px;
+color: white;
+font-size: 3em;
+position: absolute;
+}
+
+.our {
+  padding-top: 100px;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+.title{
+  text-align: center;
+font-size: 4em;
+padding: 10px;
+}
+
+.sub-title {
+  text-align: center;
+font-size: 3em;
+
+}
+
+.our p{
+  font-size: 2em;
+text-align: center;
+padding: 40px;
+}
+
+.team {
+padding-top: 50px;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.team-image {
+  background-image: url("../images/team-1.jpg");
+  height: 300px;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.team-member {
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.team-member {
+  padding-top: 30px;
+
+padding-bottom: 30px;
+}
+
+.team-image h1{
+  background-color: #212121;
+
+padding: 20px;
+
+font-size: 3em;
+
+color: white;
+
+width: 100%;
+
+bottom: 0;
+
+position: absolute;
+}
+
+.content-right {
+  font-size: 1.5em;
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 30px;
+}
+
+.image-inner {
+  background-color: #2121214d;
+height: 300px;
+}
+
+.image{
+  background-image: url("../images/self.jpg");
+height: 300px;
+background-size: cover;
+}
+
+.content-left{
+  padding-left: 20px;
+padding-right: 20px;
+padding-top: 30px;
+}
+
+.self {
+  padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.prog h3{
+  background-color: #353837;
+color: white;
+border: 2px solid;
+font-size: 2em;
+width: 150px;
+text-align: center;
+padding: 20px;
+border-radius: 10px;
+margin: auto;
+transition: 0.5s
+}
+
+.indi p{
+  font-size: 1.5em;
+
+padding: 10px;
+}
+
+.prog h3:hover{
+  background-color: #000;
+}
+
+.prog {
+  margin-top:20px;
+}
+
+.question {
+  font-size: 1.5em;
+font-weight: 600;
+padding: 10px;
+}
+
+.faq{
+  padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 150px;
+padding-left: 150px;
+}
+
+.answer {
+  font-size: 1.5em;
+padding: 30px;
+}
+
+.sup {
+  padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 50px;
+}
+
+.sup p{
+  font-size: 1.5em;
+padding: 20px;
+}
+
+.point {
+  text-align: center;
+padding-left: 60px;
+padding-right: 60px;
+padding-top:10px;
+padding-bottom: 10px;
+}
+
+.point i{
+  font-size: 8em;
+}
+
+.point p{
+  font-size: 1.5em;
+padding: 10px;
+}
+
+.para{
+  font-size: 1.5em;
+}
+
+.number {
+  font-size:7em;
+padding: 0;
+width: 800px;
+border: 5px solid;
+border-radius: 500px;
+margin: auto;
+}
+
+
+
+.group {
+
+padding-right: 60px;
+padding-left: 60px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.curr {
+  padding-right: 60px;
+padding-left: 60px;
+}
+
+.main-point {
+  font-size: 1.5em;
+font-weight: 600;
+padding: 20px;
+}
+
+.indi{
+  padding-right: 150px;
+padding-left: 150px;
+padding-bottom:50px;
+margin-top:20px;
+}
+
+.other-point {
+  font-size: 1.5em;
+
+padding-left: 40px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.footer {
+  font-size: 2em;
+
+text-align: center;
+
+padding: 20px;
+
+background-color: #353837;
+
+color: white;
+
+border-top: 10px solid #212121;
+}
+
+.owner {
+  padding-bottom: 50px;
+padding-left: 150px;
+padding-right: 150px;
+margin-top:20px;
+}
+
+.owner p{
+  font-size: 1.5em;
+}
+
+.growth {
+  padding-bottom: 50px;
+padding-left: 150px;
+padding-right: 150px;
+margin-top:20px;
+}
+
+.growth p{
+  font-size: 1.5em;
+}
+
+.letter {
+  padding-left: 40px;
+}
+
+.line {
+  display: inline-flex;
+}
