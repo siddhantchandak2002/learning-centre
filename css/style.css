@@ -186,8 +186,8 @@ position: absolute;
 .content-right {
   font-size: 1.5em;
 padding-top: 50px;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 50px;
+padding-right: 50px;
 padding-bottom: 30px;
 }
 
@@ -203,9 +203,10 @@ background-size: cover;
 }
 
 .content-left{
-  padding-left: 20px;
-padding-right: 20px;
+  padding-left: 10px;
+padding-right: 10px;
 padding-top: 30px;
+font-size: 1.2em;
 }
 
 .self {
@@ -323,10 +324,21 @@ padding: 20px;
 }
 
 .indi{
+
+background-image: url(../images/conc.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding: 0px;
+}
+
+.indi-back {
   padding-right: 150px;
 padding-left: 150px;
 padding-bottom:50px;
-margin-top:20px;
+padding-top:50px;
+background-color: #000000b3;
+color: white;
 }
 
 .other-point {
@@ -359,7 +371,7 @@ margin-top:20px;
 }
 
 .owner p{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .growth {
