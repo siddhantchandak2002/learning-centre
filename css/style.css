@@ -192,7 +192,7 @@ padding-bottom: 30px;
 }
 
 .image-inner {
-  background-color: #2121214d;
+  background-color: rgba(33, 33, 33, 0.47);
 height: 300px;
 }
 
@@ -350,7 +350,7 @@ padding: 0px;
 padding-left: 150px;
 padding-bottom:50px;
 padding-top:50px;
-background-color: #000000b3;
+background-color: rgba(33, 33, 33, 0.47);
 color: white;
 }
 
