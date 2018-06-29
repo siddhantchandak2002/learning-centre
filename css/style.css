@@ -336,22 +336,11 @@ font-weight: 600;
 padding: 20px;
 }
 
-.indi{
-
-background-image: url(../images/conc.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-padding: 0px;
-}
-
-.indi-back {
-  padding-right: 150px;
-padding-left: 150px;
+.indi {
+  padding-right: 100px;
+padding-left: 100px;
 padding-bottom:50px;
 padding-top:50px;
-background-color: rgba(33, 33, 33, 0.47);
-color: white;
 }
 
 .other-point {
@@ -437,7 +426,7 @@ width: 100%;
       font-size: 2em;
       top: 20px;
     }
-    .our, .team, .self, .sup, .indi-back, .owner, .growth, .faq, .contact {
+    .our, .team, .self, .sup, .indi, .owner, .growth, .faq, .contact, .context {
       padding-top: 50px;
       padding-left: 10px;
       padding-right: 10px;
