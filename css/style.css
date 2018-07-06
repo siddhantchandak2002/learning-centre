@@ -505,7 +505,7 @@ padding: 15px;
       font-size: 2em;
       top: 20px;
     }
-    .our, .team, .self, .sup, .indi, .owner, .growth, .faq, .contact, .context {
+    .our, .team, .self, .sup, .indi-back, .owner, .growth, .faq, .contact, .context {
       padding-top: 50px;
       padding-left: 10px;
       padding-right: 10px;
@@ -519,6 +519,18 @@ padding: 15px;
 
       padding-right: 10px;
       padding-left: 10px;
+    }
+    input {
+      padding: 5px;
+width: 200px;
+    }
+    textarea {
+      padding: 5px;
+width: 200px;
+    }
+    .detail {
+      padding-right: 10px;
+padding-left: 10px;
     }
     .content-right {
     font-size: 1.2em;
