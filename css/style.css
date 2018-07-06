@@ -163,8 +163,51 @@ padding-left: 50px;
 
 .team-member {
   padding-top: 30px;
-
+text-align: center;
 padding-bottom: 30px;
+}
+
+.detail {
+  text-align: center;
+font-size: 1.4em;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+input {
+  border: 2px solid #333;
+padding: 10px;
+width: 600px;
+margin: 30px;
+}
+
+form p{
+  font-size: 30px;
+padding: 10px;
+}
+
+textarea {
+  border: 2px solid #333;
+width: 600px;
+height: 200px;
+}
+
+input[type="submit"]{
+  background-color: #353837;
+color: white;
+border: 2px solid white;
+font-size: 2em;
+
+text-align: center;
+padding: 20px;
+font-family: 'Fjalla One', sans-serif;
+transition: 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: black;
+
 }
 
 .team-image h1{
@@ -336,12 +379,14 @@ font-weight: 600;
 padding: 20px;
 }
 
-.indi {
+.indi-back {
   padding-right: 100px;
 padding-left: 100px;
 padding-bottom:50px;
 padding-top:50px;
 }
+
+
 
 .other-point {
   font-size: 1.5em;
@@ -406,6 +451,40 @@ position: fixed;
 width: 100%;
 }
 
+.button {
+  text-align: center;
+}
+
+.button h6{
+  font-size: 3em;
+
+padding: 10px;
+}
+
+.button i{
+  font-size: 3em;
+
+padding: 10px;
+}
+
+.content-bottom p{
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.content-bottom {
+  padding: 50px;
+}
+
+.content-bottom ol{
+      list-style-type: lower-alpha;
+}
+
+.content-bottom li{
+  font-size: 1.5em;
+padding: 15px;
+}
+
 @media only screen and (max-width: 500px) {
     .text h1 {
         font-size: 2em;
@@ -437,6 +516,7 @@ width: 100%;
       padding: 10px;
     }
     .team-member {
+
       padding-right: 10px;
       padding-left: 10px;
     }
