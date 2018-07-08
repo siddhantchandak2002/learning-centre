@@ -7,6 +7,10 @@ body, h1, h2, h3, h4, h5, h6, p{
   margin: 0;
 }
 
+.col-md-12{
+  padding:0px;
+}
+
 h1, h2, h3, h4, h5, h6{
     /* font-family: 'Caveat Brush', cursive; */
     font-family: 'Fjalla One', sans-serif;
@@ -23,7 +27,8 @@ a{
 }
 .text h1{
   text-align: left;
-  font-size: 5.5em;
+  font-size: 5em;
+
   color: white;
   transition: 0.5s;
 }
@@ -108,16 +113,14 @@ z-index: 100;
 }
 
 .text i{
-  text-align: right;
+  color: white;
 width: 100%;
-padding-right: 100px;
-color: white;
-font-size: 3em;
-position: absolute;
+text-align: center;
+font-size: 4em;
 }
 
 .our {
-  padding-top: 100px;
+  padding-top: 50px;
 padding-left: 200px;
 padding-right: 200px;
 }
@@ -295,8 +298,8 @@ padding: 10px;
 .faq{
   padding-top: 50px;
 padding-bottom: 50px;
-padding-right: 150px;
-padding-left: 150px;
+padding-right: 100px;
+padding-left: 100px;
 }
 
 .answer {
@@ -312,7 +315,8 @@ padding-bottom: 50px;
 
 .sup p{
   font-size: 1.5em;
-padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .point {
@@ -343,8 +347,8 @@ padding: 10px;
 }
 
 .contact {
-  padding-right: 200px;
-padding-left: 200px;
+  padding-right: 100px;
+padding-left: 100px;
 text-align: center;
 padding-bottom: 100px;
 }
@@ -412,8 +416,8 @@ border-top: 10px solid #212121;
 
 .owner {
   padding-bottom: 50px;
-padding-left: 150px;
-padding-right: 150px;
+padding-left: 100px;
+padding-right: 100px;
 margin-top:20px;
 }
 
@@ -423,8 +427,8 @@ margin-top:20px;
 
 .growth {
   padding-bottom: 50px;
-padding-left: 150px;
-padding-right: 150px;
+padding-left: 100px;
+padding-right: 100px;
 margin-top:20px;
 }
 
@@ -445,11 +449,7 @@ margin-top:20px;
 font-weight: 600;
 }
 
-.opening {
-  height: 100%;
-position: fixed;
-width: 100%;
-}
+
 
 .button {
   text-align: center;
@@ -473,7 +473,9 @@ padding: 10px;
 }
 
 .content-bottom {
-  padding: 50px;
+  padding-top: 50px;
+padding-right: 0;
+padding-left: 0;
 }
 
 .content-bottom ol{
@@ -486,13 +488,19 @@ padding: 15px;
 }
 
 @media only screen and (max-width: 500px) {
+
     .text h1 {
         font-size: 2em;
     }
 
     .text {
       padding-top: 100px;
-      padding-left: 10px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 100px;
+    }
+    .content-bottom {
+      padding: 10px;
     }
     .letter {
     padding-left: 5px;
@@ -533,7 +541,7 @@ width: 200px;
 padding-left: 10px;
     }
     .content-right {
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
