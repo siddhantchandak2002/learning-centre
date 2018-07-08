@@ -22,41 +22,41 @@
         <div class="text">
           <div class="line">
             <div class="letter">
-              <h1 id="text-h1" class="our-h1"><a href="main.html#our">Our</a></h1>
+              <h1 id="text-h1" class="our-h1"><a href="#our">Our</a></h1>
               <p class="our-p">team</p>
             </div>
             <div class="letter">
-              <h1 id="text-h1" class="self-h1"><a href="main.html#self">self-directed learning</a></h1>
+              <h1 id="text-h1" class="self-h1"><a href="#self">self-directed learning</a></h1>
               <p class="self-p">process</p>
             </div>
           </div><br>
           <div class="line">
             <div class="letter">
-              <h1 id="text-h1" class="prog-h1"><a href="main.html#prog">programme</a></h1>
+              <h1 id="text-h1" class="prog-h1"><a href="#prog">programme</a></h1>
               <p class="prog-p" style="padding-top: 5px;">details, application form</p>
             </div>
             <div class="letter">
-              <h1 id="text-h1" class="sup-h1"><a href="main.html#sup">supports</a></h1>
+              <h1 id="text-h1" class="sup-h1"><a href="#sup">supports</a></h1>
               <p class="sup-p" style="padding-top: 5px;">key process details</p>
             </div>
           </div><br>
           <div class="line">
             <div class="letter">
-              <h1 id="text-h1" class="ind-h1"><a href="main.html#indi">individuals aged 14-22</a></h1>
+              <h1 id="text-h1" class="ind-h1"><a href="#indi">individuals aged 14-22</a></h1>
               <p class="ind-p">context </p>
             </div>
 
           </div><br>
           <div class="line">
             <div class="letter">
-              <h1 id="text-h1" class="own-h1"><a href="main.html#owner">to take ownership </a></h1>
+              <h1 id="text-h1" class="own-h1"><a href="#owner">to take ownership </a></h1>
               <p class="own-p">reclaiming learning</p>
             </div>
 
           </div><br>
           <div class="line">
             <div class="letter">
-              <h1 id="text-h1" class="growth-h1"><a href="main.html#growth">of their well being and growth.</a></h1>
+              <h1 id="text-h1" class="growth-h1"><a href="#growth">of their well being and growth.</a></h1>
               <p class="growth-p">learning goals</p>
             </div>
           </div>
@@ -73,7 +73,7 @@
       </div>
     </div>
     <div class="team col-md-12">
-      <h2 class="sub-title">The team</h2>
+      <h2 class="sub-title">Team</h2>
       <div class="team-members col-md-12">
         <div class="team-member col-md-4">
           <img src="images/1.png"  class="img-circle" alt="" height="200px;" width="200px" style="margin:10px;">
@@ -233,7 +233,7 @@
       </div>
     </div>
     <div class="indi col-md-12" id="indi" style="background-image:url(images/context.png); background-size: cover; background-repeat: no-repeat; color:white; font-weight: 700; padding:0px; margin-top:20px; margin-bottom:20px;">
-      <div class="indi-back col-md-12" style="background-color: #0009;">
+      <div class="indi-back col-md-12" style="background-color: #000000b3;">
         <h1 class="title">Context</h1>
         <div class="col-md-12">
 
@@ -284,7 +284,7 @@
       <br><br>
       <p>The learning process is designed to foster a unique articulation of well-being and growth for participants(and for the groups and systems they are a part of). It will contribute in varying degrees to the physical, emotional, spiritual and academic/professional well-being and growth.
 </p>
-      <p class="main-point">Broader Goals:</p>
+      <p class="main-point">Broad Goals:</p>
       <div class="all-points col-md-12">
         <div class="point col-md-6">
           <i class="fa fa-clock-o"></i>
@@ -312,7 +312,7 @@
     </div>
     <div class="prog col-md-12" id="faq">
 
-      <h1 class="title">Participant FAQs</h1><br><br>
+      <h1 class="title">FAQs</h1><br><br>
 
 
       <div class="faq">
@@ -344,26 +344,50 @@ $(".button").click(function() {
   }, 2000);
 });
 </script>
+
 <script type="text/javascript">
+$(".our-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#our").offset().top
+  }, 2000);
+});
+
+$(".self-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#self").offset().top
+  }, 2000);
+});
+
+$(".prog-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#prog").offset().top
+  }, 2000);
+});
+
+$(".sup-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#sup").offset().top
+  }, 2000);
+});
+
+$(".ind-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#ind").offset().top
+  }, 2000);
+});
+
+$(".own-h1").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#growth").offset().top
+  }, 2000);
+});
+
 $("#scroll").click(function() {
   $('html, body').animate({
       scrollTop: $("#our").offset().top
   }, 2000);
 });
 </script>
-<script>
-$( document ).click(function() {
-  $( "#scroll" ).toggle( "bounce", { times: 3 }, "slow" );
-});
-</script>
-    <script>
-function openNav() {
-    document.getElementById("opening-nav").style.width = "100%";
-}
 
-function closeNav() {
-    document.getElementById("opening-nav").style.width = "0";
-}
-</script>
   </body>
 </html>
